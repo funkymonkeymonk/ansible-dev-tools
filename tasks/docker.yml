@@ -1,0 +1,13 @@
+---
+
+- name: OSX | Install docker
+  homebrew: name=docker state=latest update_homebrew=yes
+
+- name: OSX | Install docker-compose
+  homebrew: name=docker-compose state=latest
+
+- name: OSX | Install docker-machine
+  homebrew: name=docker-machine state=latest
+
+- name: OSX | Install docker-swarm
+  homebrew: name=docker-swarm state=latest
