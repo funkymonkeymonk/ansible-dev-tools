@@ -11,3 +11,6 @@
 
 - name: OSX | Install docker-swarm
   homebrew: name=docker-swarm state=latest
+
+- name: Add docker dotfile
+  copy: src=docker.dotfile dest=~/.dotfiles/ mode=0644
