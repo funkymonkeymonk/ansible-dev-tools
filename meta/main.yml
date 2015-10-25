@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Will Weaver
-  description: Ansible role for installing and updating docker and associated tools
+  description: Ansible role for installing development tools
   license: MIT
   min_ansible_version: 1.9
   platforms:
