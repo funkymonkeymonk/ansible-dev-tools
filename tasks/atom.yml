@@ -13,3 +13,4 @@
     - linter-ansible-lint
     - minimap
     - minimap-git-diff
+    - language-docker
