@@ -3,6 +3,7 @@
 - include: virtualbox.yml
 - include: docker.yml
 - include: atom.yml
+- include: heroku.yml
 
 - name: Ensure everything in ~/.dotfiles/ is sourced in ~/.bash_profile
   lineinfile: dest=~/.bash_profile line='for file in ~/.dotfiles/*; do if [ -f "$file" ]; then . $file; fi; done'
