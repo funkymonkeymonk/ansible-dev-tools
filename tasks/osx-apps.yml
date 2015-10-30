@@ -4,4 +4,3 @@
   homebrew: name={{ item }} state=latest update_homebrew=yes
   with_items:
     - heroku-toolbelt
-    - python
