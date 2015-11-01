@@ -7,10 +7,12 @@
   apm: name={{item}} state=latest
   with_items:
     - ansible-snippets
+    - auto-indent
     - git-plus
     - git-projects
+    - language-docker
     - linter
     - linter-ansible-lint
     - minimap
     - minimap-git-diff
-    - language-docker
+    - travis-ci-status
