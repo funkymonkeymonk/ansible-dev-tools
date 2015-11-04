@@ -3,4 +3,6 @@
 - name: OSX | Install apps
   homebrew: name={{ item }} state=latest update_homebrew=yes
   with_items:
+    - awscli
     - heroku-toolbelt
+

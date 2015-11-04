@@ -11,6 +11,7 @@
     - git-plus
     - git-projects
     - language-docker
+    - language-terraform
     - linter
     - linter-ansible-lint
     - minimap
