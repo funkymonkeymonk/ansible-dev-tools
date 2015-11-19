@@ -2,3 +2,6 @@
 
 - name: OSX | Install virtualbox
   homebrew_cask: name=virtualbox state=present
+
+- name: OSX | Install vagrant
+  homebrew_cask: name=vagrant state=present
