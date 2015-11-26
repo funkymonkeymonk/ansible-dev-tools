@@ -6,3 +6,7 @@
     - awscli
     - heroku-toolbelt
 
+- name: OSX | Install cask apps
+  homebrew_cask: name={{ item }} state=latest
+  with_items:
+    - gitup
