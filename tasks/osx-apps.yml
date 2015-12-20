@@ -7,6 +7,6 @@
     - heroku-toolbelt
 
 - name: OSX | Install cask apps
-  homebrew_cask: name={{ item }} state=latest
+  homebrew_cask: name={{ item }} state=present
   with_items:
     - gitup
